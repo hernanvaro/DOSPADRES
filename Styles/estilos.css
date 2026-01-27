@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header{
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+h4{
+    color: rgb(72, 72, 204);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: rgb(90, 89, 89);
+    background-color: white;
+    text-decoration: none;
+}
+
+nav ul li{
+    margin: 0 30px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+header .logo{
+    text-decoration: none;
+    font-family: "Miss Fajardose", cursive;
+    font-style: normal;
+}
+
+header h1 a{
+    text-align: center;
+    font-size: 60px;
+}
+
+.imagenFondo{
+    width: 100%;
+}
+
+article img{
+    width: 200px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    font-family: "Prompt", sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+main section .precio{
+    color: aqua;
+}
+
+label{
+    color: rgb(72, 72, 204);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.acercaNosotros{
+    text-align: center;
+}
+
+article{
+    height: 100%;
+    margin: 10px 0 10px 0;
+}
+
+section article p{
+    text-align: center;
+}
+
+h2{
+    padding: 10px 0 0 10px;
+    color: rgb(72, 72, 204);
+    text-align: center;
+}
+
+.cajaPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+.cajaElementos{
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "pantalon remera anteojos bermudaJean";
+}
+
+.cajaElementosMujer{
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "mochilaMujer remeraMujer shortMujer zapasMujer";
+}
+
+.cajaElementosNiños{
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "ojotasBatman rollersMujer remeraLycra scooter";
+}
+
+.cajaElementosZapatillas{
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "zapasVansClasicas zapasVans zapasRipCurl zapasDc";
+}
+
+.pantalon{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: pantalon;
+}
+
+.remera{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: remera;
+}
+
+.anteojos{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: anteojos;
+}
+
+.anteojos p{
+    margin: 8px;
+}
+
+.imgAnteojos{
+    padding-top: 90px;
+}
+.textoAnteojos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 84px;
+}
+
+.bermudaJean{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: bermudaJean;
+}
+
+.mochilaMujer{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: mochilaMujer;
+}
+
+.remeraMujer{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: remeraMujer;
+}
+
+.shortMujer{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: shortMujer;
+}
+
+.zapasMujer{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: zapasMujer;
+}
+
+.ojotasBatman{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: ojotasBatman;
+}
+
+.rollersMujer{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: rollersMujer;
+}
+
+.remeraLycra{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: remeraLycra;
+}
+
+.scooter{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: scooter;
+}
+
+.zapasVansClasicas{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: zapasVansClasicas;
+}
+
+.zapasVans{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: zapasVans;
+}
+
+.zapasRipCurl{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: zapasRipCurl;
+}
+
+.zapasDc{
+    background-color: rgb(164, 165, 165);
+    border-radius: 15px;
+    grid-area: zapasDc;
+}
+
+
+.hombre{
+    text-align: center;
+}
+
+.mujer{
+    text-align: center;
+}
+
+.niños{
+    text-align: center;
+}
+
+.zapatillas{
+    text-align: center;
+}
+
