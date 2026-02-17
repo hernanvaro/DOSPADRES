@@ -1,0 +1,47 @@
+@use "variables" as *;
+
+footer{
+    background-color: $colorfondofooter1;
+    @include textosvarios ($colortextofooter, center);
+    padding: 10px 0 10px 0;
+
+    label{
+        color:$colortitulofooter;
+    }
+}
+
+.acercaNosotros {
+    background-color: $colorfondofooter2;
+    @include textosvarios ($colortitulosection, center);
+    padding: 30px 15px;
+    font-family: $tipoletrafooter;
+}
+
+.acercaNosotros .container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.acercaNosotros h2 {
+    font-size: 1.2rem; 
+    letter-spacing: 2px;
+    margin: 0 0 8px 0; 
+}
+
+.acercaNosotros .divider {
+    width: 40px;
+    height: 3px;
+    background-color: $lineadividersection;
+    margin: 0 auto 15px;
+}
+
+.acercaNosotros p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: $colortextosection;
+    margin: 0;
+}
+
+.acercaNosotros strong {
+    color: $colortextostrongsection;
+}

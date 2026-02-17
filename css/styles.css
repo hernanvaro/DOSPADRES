@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+.margenypadding {
+  padding: 10px 0 0 10px;
+}
+
+header {
+  background-color: black;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header h1 {
+  font-family: "Mr Dafoe", cursive;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 60px;
+}
+header nav {
+  width: 100%;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+header li {
+  margin: 0 30px;
+}
+header li a:hover {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+header .nav-underline .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  border-bottom: var(--bs-nav-underline-border-width) solid transparent;
+  font-weight: 700;
+  color: white;
+}
+header .navbar-toggler {
+  color: white;
+  background-color: white;
+}
+header .navbar-nav .nav-link.active {
+  color: #6c757d;
+}
+header .bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: #212529 !important;
+}
+header .btn-outline-success {
+  --bs-btn-color: white;
+  --bs-btn-border-color: white;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(72, 72, 204);
+  --bs-btn-hover-border-color: white;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(72, 72, 204);
+  --bs-btn-active-border-color: black;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #198754;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #198754;
+  --bs-gradient: none;
+}
+
+main {
+  font-family: "Prompt", sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+main .hombre, main .zapatillas, main .niños, main .mujer {
+  color: black;
+  text-align: center;
+}
+main h2 {
+  padding: 10px 0 0 10px;
+  color: rgb(72, 72, 204);
+  text-align: center;
+}
+main article {
+  margin: 10px 0 10px 0;
+}
+main article p {
+  color: black;
+  text-align: center;
+}
+main article .precio {
+  color: #ff0000;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+footer label {
+  color: rgb(72, 72, 204);
+}
+
+.acercaNosotros {
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.acercaNosotros .container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.acercaNosotros h2 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin: 0 0 8px 0;
+}
+
+.acercaNosotros .divider {
+  width: 40px;
+  height: 3px;
+  background-color: #ff0000;
+  margin: 0 auto 15px;
+}
+
+.acercaNosotros p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #bbb;
+  margin: 0;
+}
+
+.acercaNosotros strong {
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

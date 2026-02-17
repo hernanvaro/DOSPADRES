@@ -1,0 +1,37 @@
+@use "variables" as *;
+
+main{
+    font-family: $tipoletramain;
+    background-color: $colorfondomain;
+
+    .hombre{
+        @include textosvarios ($colortextos, center)
+    }
+
+    .mujer{
+        @extend .hombre;
+    }
+
+    .niños{
+        @extend .hombre;
+    }
+
+    .zapatillas{
+        @extend .hombre;
+    }
+
+    h2{
+        padding: 10px 0 0 10px;
+        color: $colortitulos;
+        text-align: center;
+    }
+    article{
+        margin: 10px 0 10px 0;
+        p{
+            @include textosvarios ($colortextos,center);
+        }
+        .precio{
+            @include textosvarios ($colorprecio, center);
+        }
+    }
+}
