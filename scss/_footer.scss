@@ -20,19 +20,30 @@ footer{
 .acercaNosotros .container {
     max-width: 650px;
     margin: 0 auto;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente para legibilidad */
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .acercaNosotros h2 {
     font-size: 1.2rem; 
     letter-spacing: 2px;
     margin: 0 0 8px 0; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .acercaNosotros .divider {
     width: 40px;
     height: 3px;
-    background-color: $lineadividersection;
     margin: 0 auto 15px;
+    height: 3px;
+    width: 60px;
+    background-color: red;
+    margin-bottom: 20px;
+    border-radius: 2px;
 }
 
 .acercaNosotros p {
